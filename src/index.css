@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@keyframes fadeIn-esquerda {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn-direita {
+    from {
+        opacity: 0;
+        transform: translateX(75px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@layer utilities {
+    .fade-in-esquerda {
+        animation: fadeIn-esquerda 1s ease-in forwards;
+    }
+    .fade-in-direita {
+        animation: fadeIn-direita 1s ease-in forwards;
+    }
+}
