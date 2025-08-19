@@ -5,8 +5,8 @@ function Sobre() {
   return (
     <div className='font-poppins h-screen w-full bg-[#181818] grid grid-cols-2 items-center justify-items-start'>
 
-      <div className=''>
-        <h1 className='fade-in-esquerda block text-4xl tracking-wide ml-15 text-[#e8e8e8] text-center'>Olá! Meu nome é
+      <div className='ml-15'>
+        <h1 className='fade-in-esquerda block text-4xl tracking-wide text-[#e8e8e8] text-center'>Olá! Meu nome é
           <p className='font-bold text-7xl bg-gradient-to-r from-[#03f7e1] to-[#fbfbfb] bg-clip-text text-transparent'>RAFAEL MOREIRA</p>
           <p className='text-4xl text-start text-[#e8e8e8]'>Sou um Dev
             <TypeAnimation
@@ -24,6 +24,24 @@ function Sobre() {
             />
           </p>
         </h1>
+
+        <div className='flex gap-x-4'>
+          <button className='flex mt-4 gap-x-1 items-center border-1 p-1.5 px-3.5 rounded-md text-[#e8e8e8] border-[#e8e8e81e] hover:bg-[#e8e8e81e] hover:cursor-pointer'>
+            Veja Meus Trabalhos
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+            </svg>
+          </button>
+
+          <button className='flex mt-4 gap-x-1 items-center border-1 p-1.5 px-3.5 rounded-md text-black bg-[#e8e8e8] border-[#e8e8e81e] hover:bg-[#e8e8e8cb] hover:cursor-pointer'>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+          </svg>
+            Contate-me
+          </button>
+
+        </div>
+
       </div>
 
       <div className="relative flex items-center justify-center fade-in-direita">
