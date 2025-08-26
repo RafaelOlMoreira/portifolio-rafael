@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projetos() {
     return (
-        <div className='font-poppins p-15 h-full w-full bg-[#181818]'>
+        <div id='projetos' className='font-poppins px-15 pt-25 h-full w-full bg-[#181818]'>
             <div className='max-w-xl mx-auto text-center space-y-3'>
                 <h1 className='font-bold text-4xl text-[#e8e8e8]'>
                     Projetos em destaque

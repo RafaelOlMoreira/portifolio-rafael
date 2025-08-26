@@ -2,17 +2,17 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className='absolute font-poppins bg-[#181818] text-[#e8e8e8] w-full'>
+        <div className='fixed z-999 font-poppins bg-[#181818ea] text-[#e8e8e8] w-full'>
             <nav className='h-20 px-10 grid grid-cols-3 items-center shadow-xl '>
                 <div className=''>
                     Logo
                 </div>
                 <div className='text-lg'>   
                     <ul className='md:flex hidden gap-x-10 justify-center'>
-                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'>Início</li>
-                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'>Projetos</li>
-                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'>Habilidades</li>
-                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'>Contato</li>
+                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'><a href="#inicio">Início</a></li>
+                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'><a href="#projetos">Projetos</a></li>
+                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'><a href="#habilidades">Habilidades</a></li>
+                        <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
                 <div className='flex justify-end md:hidden'>

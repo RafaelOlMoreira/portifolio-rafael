@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 function Sobre() {
   return (
-    <div className='font-poppins h-screen w-full bg-[#181818] grid grid-cols-2 items-center justify-items-start'>
+    <div id='inicio' className='font-poppins h-screen w-full bg-[#181818] grid grid-cols-2 items-center justify-items-start'>
 
       <div className='ml-15'>
         <h1 className='fade-in-esquerda block text-4xl tracking-wide text-[#e8e8e8] text-center'>Olá! Meu nome é
