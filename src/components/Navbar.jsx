@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className='fixed z-999 font-poppins bg-[#181818ea] text-[#e8e8e8] w-full'>
+        <div className='fixed z-999 font-poppins bg-[#181818fb] text-[#e8e8e8] w-full'>
             <nav className='h-20 px-10 grid grid-cols-3 items-center shadow-xl '>
                 <div className=''>
                     Logo
