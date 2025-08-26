@@ -25,7 +25,7 @@ function Sobre() {
           </p>
         </h1>
 
-        <div className='flex gap-x-4'>
+        <div className='flex gap-x-4 fade-in-esquerda'>
           <button className='flex mt-4 gap-x-1 items-center border-1 p-1.5 px-3.5 rounded-md text-[#e8e8e8] border-[#e8e8e81e] hover:bg-[#e8e8e81e] hover:cursor-pointer'>
             Veja Meus Trabalhos
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -44,14 +44,14 @@ function Sobre() {
 
       </div>
 
-      <div className="relative flex items-center justify-center fade-in-direita">
+      <div className="relative flex mx-auto items-center fade-in-direita">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
           className="absolute max-h-screen" >
           <path fill="#03F7E1" d="M55.4,-34.5C63.6,-17.8,56.4,5.3,44.6,23.6C32.8,41.9,16.4,55.4,2.7,53.9C-10.9,52.3,-21.8,35.6,-33.2,17.5C-44.6,-0.6,-56.5,-20,-51.1,-35.2C-45.6,-50.3,-22.8,-61,0.4,-61.3C23.6,-61.5,47.2,-51.2,55.4,-34.5Z" transform="translate(100 100)" />
         </svg>
 
         <img src="/fotopersona.png" alt="Minha foto"
-          className="relative max-h-200 rounded-b-full object-cover"
+          className="relative max-h-150 rounded-b-full object-cover"
         />
       </div>
 
