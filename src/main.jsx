@@ -4,6 +4,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Sobre from './components/Sobre'
 import Projetos from './components/Projetos'
+import Habilidades from './components/Habilidades'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <Navbar />
     <Sobre />
     <Projetos />
+    <Habilidades />
 
   </StrictMode>,
 )
