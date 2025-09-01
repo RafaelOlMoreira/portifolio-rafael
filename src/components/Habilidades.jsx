@@ -15,11 +15,13 @@ function Habilidades() {
                 
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>React</span>
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Tailwind CSS</span>
-                <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Node.js</span>
+                <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>C#</span>
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>PHP</span>
+                <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Node.js</span>
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Rest API</span>
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Styled Components</span>
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>MySQL</span>
+                <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>GitHub</span>
                 <span className='p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Git</span>
                 <span className='h-min p-3 border-1 border-[#e8e8e8]/60 rounded-2xl'>Vercel</span>
             </div>
