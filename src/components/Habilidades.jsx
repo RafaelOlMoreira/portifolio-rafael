@@ -2,7 +2,7 @@ import React from 'react'
 
 function Habilidades() {
     return (
-        <div className='font-poppins p-15 h-min w-full bg-[#181818]'>
+        <div id='habilidades' className='font-poppins px-15 p-25 h-auto w-full bg-[#181818]'>
             <div className='text-center'>
                 <h1 className='font-bold text-4xl text-[#e8e8e8]'>
                     Habilidades
