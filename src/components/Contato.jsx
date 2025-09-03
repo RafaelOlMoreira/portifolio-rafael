@@ -9,19 +9,20 @@ function Contato() {
                 </h1>
                 <p className='dark:text-[#e8e8e8]/60'>
                     Tem um projeto ou dúvida? Entre em contato pelo formulário abaixo ou envie um e-mail, adoraria ouvir de você.
+                    <p>Email: rafael150305@gmail.com</p>
                 </p>
             </div>
             <form action="post" className='max-w-1/2 mx-auto mt-15'>
                 <div className='grid grid-cols-2 space-x-3 mb-6'>
                     <div>
                         <label htmlFor="nome" className='text-white text-lg'>Nome</label>
-                        <input type="text" name="nome" id="" placeholder='Rafael Moreira'
+                        <input type="text" name="nome" id="" placeholder='Walter White'
                             className='border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:dark:text-[#e8e8e8]/60 w-full' />
                     </div>
 
                     <div>
                         <label htmlFor="email" className='text-white text-lg'>Email</label>
-                        <input type="email" name="email" id="" placeholder='r@gmail.com'
+                        <input type="email" name="email" id="" placeholder='r@exemplo.com'
                             className='border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:dark:text-[#e8e8e8]/60 w-full' />
                     </div>
                 </div>
