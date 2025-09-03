@@ -6,6 +6,7 @@ import Sobre from './components/Sobre'
 import Projetos from './components/Projetos'
 import Habilidades from './components/Habilidades'
 import Contato from './components/Contato'
+import Footer from './components/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     <Projetos />
     <Habilidades />
     <Contato />
+    <Footer />
 
   </StrictMode>,
 )
