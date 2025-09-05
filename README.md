@@ -1,12 +1,16 @@
-# React + Vite
+# Meu Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio. Este repositório reúne projetos selecionados desenvolvidos ao longo da minha trajetória em desenvolvimento de software. Cada projeto evidencia minhas competências em desenvolvimento web (front-end e back-end), aplicando práticas de qualidade de código, incluindo legibilidade e desempenho.
 
-Currently, two official plugins are available:
+## Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sou Rafael Moreira, entusiasta com tecnólogo em Análise e Desenvolvimento de Sistemas (SENAI) e atualmente cursando Bacharelado em ADS na PUC Minas.
+Atuo com desenvolvimento web full-stack, entregando soluções práticas para problemas complexos. Tenho foco em código limpo, componentização e performance, e costumo trabalhar com tecnologias modernas para front-end e back-end. Busco aprender continuamente e aplicar boas práticas de engenharia de software em projetos reais.
 
-## Expanding the ESLint configuration
+## Contato
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Se você deseja saber mais sobre meu trabalho ou discutir possíveis colaborações, sinta-se à vontade para me contatar:
+
+- **Email:** [rafael150305@gmail.com](mailto:rafael150305@gmail.com)
+- **LinkedIn:** [RafaelOlMoreira](https://www.linkedin.com/in/rafaelolmoreira)
+- **GitHub:** [RafaelOlMoreira](https://github.com/RafaelOlMoreira)
