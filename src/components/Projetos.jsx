@@ -16,12 +16,11 @@ function Projetos() {
 
                 <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
                     <div className='p-5'>
-                        <h1 className='text-white text-2xl font-extrabold py-1.5'>Moda masculina | e-commerce</h1>
+                        <h1 className='text-white text-2xl font-extrabold py-1.5'>JA Grifes</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
-                            Plataforma de e-commerce, com catálogo, filtros e páginas de produto otimizadas.
-                            Fluxo de compra com carrinho e checkout para integrar gateways de pagamento.
-                            Painel administrativo para gerenciar produtos, categorias e estoque.
-                            Site com integração de APIs (pagamentos, inventário, analytics).
+                            Desenvolvi uma plataforma completa de e-commerce com foco em performance e escalabilidade. 
+                            Inclui catálogo dinâmico com filtros avançados, fluxo de compra com carrinho e checkout integrados a gateways de pagamento, 
+                            além de painel administrativo para gerenciamento de produtos, categorias e estoque em tempo real.
                         </p>
                         <div className='mt-4 flex flex-wrap items-center gap-2'>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>React</span>
@@ -37,17 +36,18 @@ function Projetos() {
 
                 <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
                     <div className='p-5'>
-                        <h1 className='text-white text-2xl font-extrabold py-1.5'>ComicZone | e-commerce</h1>
+                        <h1 className='text-white text-2xl font-extrabold py-1.5'>ComicZone</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
-                            Projeto acadêmico web desenvolvido em PHP para um sistema de banca. 
-                            Ele permite que usuários com diferentes níveis de permissão (Admin e Organizador e Comprador) possam criar, 
-                            visualizar e gerenciar eventos e produtos, enquanto usuários comuns têm acesso apenas às informações públicas.
+                            Projeto acadêmico em PHP para um sistema de gestão de eventos estilo ‘banca’. 
+                            O sistema contempla níveis de permissão (Admin, Organizador, Comprador), 
+                            permitindo criação, visualização e gerenciamento de eventos e produtos, 
+                            com painel diferenciado para usuários comuns e lógica de acesso controlado
                         </p>
                         <div className='mt-4 flex flex-wrap items-center gap-2'>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>PHP</span>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>Tailwind CSS</span>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>JavaScript</span>
-                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>MySQL</span>    
+                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>MySQL</span>
                         </div>
                     </div>
                     <div className='ml-auto mt-auto'>
@@ -57,16 +57,18 @@ function Projetos() {
 
                 <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
                     <div className='p-5'>
-                        <h1 className='text-white text-2xl font-extrabold py-1.5'>Moda masculina | e-commerce</h1>
+                        <h1 className='text-white text-2xl font-extrabold py-1.5'>CR Tech Store</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
-                            Projeto e-commerce para oferecer uma eficiencia na compra de produtos eletrônicos e serviços de uma assistência técnica.
-                             O projeto tem como responsabilidade garantir facilidade na navegação e segurança nas transações.
+                            Desenvolvi uma loja virtual moderna com foco em usabilidade e design responsivo. 
+                            Construída com React, Next.js, Tailwind CSS e TypeScript, 
+                            a aplicação destaca-se pela experiência fluida do usuário e pela reutilização de componentes, 
+                            facilitando manutenção e escalabilidade do código.
                         </p>
                         <div className='mt-4 flex flex-wrap items-center gap-2'>
-                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>React</span>
-                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>Node.js</span>
+                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>React.js</span>
+                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>Next.js</span>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>Tailwind CSS</span>
-                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>REST API</span>
+                            <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>TypeScript</span>
                         </div>
                     </div>
                     <div className='ml-auto mt-auto'>
@@ -78,8 +80,10 @@ function Projetos() {
                     <div className='p-5 min-h-auto'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>Bingo em C#</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
-                            Jogo de Bingo em C# com suporte a múltiplos jogadores, cartelas aleatórias e registro de partidas em log. 
-                            Projeto desenvolvido para praticar conceitos de POO e manipulação de arquivos.
+                            Criação de um jogo de Bingo em C#, com suporte a múltiplos jogadores, geração aleatória de cartelas, 
+                            gerenciamento de partidas e registro em log. 
+                            Projeto ideal para aprofundar conceitos de programação orientada a objetos e manipulação de arquivos, 
+                            reforçando boas práticas de estrutura e persistência.
                         </p>
                         <div className='mt-4 flex flex-wrap items-center gap-2'>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>Csharp</span>
