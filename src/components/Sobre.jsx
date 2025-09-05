@@ -51,7 +51,7 @@ function Sobre() {
         </svg>
 
         <img src="/fotopersona.png" alt="Minha foto"
-          className="relative max-h-150 rounded-b-full object-cover"
+          className="relative items-center max-h-130 rounded-b-full object-cover"
         />
       </div>
 

@@ -7,7 +7,7 @@ function Navbar() {
                 <div className=''>
                     Logo
                 </div>
-                <div className='text-lg'>   
+                <div className='text-lg'>
                     <ul className='md:flex hidden gap-x-10 justify-center'>
                         <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'><a href="#inicio">Início</a></li>
                         <li className='hover:cursor-pointer hover:text-[#9CA3AF] hover:border-b transition-all duration-200'><a href="#projetos">Projetos</a></li>
