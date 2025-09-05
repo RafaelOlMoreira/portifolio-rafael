@@ -41,7 +41,7 @@ function Projetos() {
                             Projeto acadêmico em PHP para um sistema de gestão de eventos estilo ‘banca’. 
                             O sistema contempla níveis de permissão (Admin, Organizador, Comprador), 
                             permitindo criação, visualização e gerenciamento de eventos e produtos, 
-                            com painel diferenciado para usuários comuns e lógica de acesso controlado
+                            com painel diferenciado para usuários comuns e lógica de acesso controlado.
                         </p>
                         <div className='mt-4 flex flex-wrap items-center gap-2'>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>PHP</span>
