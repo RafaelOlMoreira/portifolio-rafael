@@ -20,7 +20,7 @@ function Projetos() {
                         <p className='dark:text-[#e8e8e8]/60'>
                             Desenvolvi uma plataforma completa de e-commerce com foco em performance e escalabilidade. 
                             Inclui catálogo dinâmico com filtros avançados, fluxo de compra com carrinho e checkout integrados a gateways de pagamento, 
-                            além de painel administrativo para gerenciamento de produtos, categorias e estoque em tempo real.
+                            painel administrativo para gerenciamento de produtos, categorias e estoque em tempo real.
                         </p>
                         <div className='mt-4 flex flex-wrap items-center gap-2'>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>React</span>
