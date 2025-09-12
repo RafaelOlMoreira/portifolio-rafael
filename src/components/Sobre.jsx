@@ -7,15 +7,15 @@ function Sobre() {
                                 xl:grid-cols-2 xl:pt-60'>
 
       <div className='xl:ml-15 mx-auto'>
-        <h1 className='text-3xl fade-in-esquerda block tracking-wide text-[#e8e8e8] text-center text-nowrap object-cover
-                        xl:text-4xl '>
+        <h1 className='fade-in-esquerda block tracking-wide text-[#e8e8e8] text-center text-nowrap object-cover
+                       text-xl md:text-2xl lg:text-3xl xl:text-4xl '>
           Olá! Meu nome é
-          <p className='text-6xl font-bold bg-gradient-to-r from-[#03f7e1] to-[#fbfbfb] bg-clip-text text-transparent
-                        xl:text-7xl'>
+          <p className='text-4xl font-bold bg-gradient-to-r from-[#03f7e1] to-[#fbfbfb] bg-clip-text text-transparent
+                        md:text-5xl lg:text-6xl xl:text-7xl'>
             RAFAEL MOREIRA
           </p>
-          <p className='text-3xl text-start text-[#e8e8e8]
-                        xl:text-4xl'>
+          <p className='text-xl text-center xl:text-start text-[#e8e8e8]
+                        md:text-2xl lg:text-3xl xl:text-4xl'>
             Sou um Dev
             <TypeAnimation
               sequence={[
@@ -27,7 +27,7 @@ function Sobre() {
               ]}
               wrapper='span'
               speed={20}
-              className='text-3xl xl:text-4xl text-[#03f7e1] font-bold'
+              className='text-xl md:text-2xl lg:text-3xl xl:text-4xl text-[#03f7e1] font-bold'
               repeat={Infinity}
             />
           </p>
