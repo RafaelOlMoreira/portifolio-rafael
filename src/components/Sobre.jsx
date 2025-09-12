@@ -3,24 +3,35 @@ import { TypeAnimation } from 'react-type-animation'
 
 function Sobre() {
   return (
-    <div id='inicio' className='font-poppins pt-15 h-screen w-full bg-[#181818] grid grid-rows-2 items-center justify-items-start
-                                xl:grid-cols-2 xl:pt-60'>
+    <div id='inicio' className='font-poppins pt-4 h-screen w-full bg-[#181818] grid grid-rows-2 items-center justify-items-start
+                                xl:grid-cols-2 xl:pt-60
+                                lg:pt-10
+                                md:pt-7'>
 
       <div className='xl:ml-15 mx-auto'>
         <h1 className='fade-in-esquerda block tracking-wide text-[#e8e8e8] text-center text-nowrap object-cover
-                       text-xl md:text-2xl lg:text-3xl xl:text-4xl '>
+                       text-xl 
+                       md:text-2xl 
+                       lg:text-3xl 
+                       xl:text-4xl '>
           Olá! Meu nome é
           <p className='text-4xl font-bold bg-gradient-to-r from-[#03f7e1] to-[#fbfbfb] bg-clip-text text-transparent
                         md:text-5xl lg:text-6xl xl:text-7xl'>
             RAFAEL MOREIRA
           </p>
-          <p className='text-xl text-center xl:text-start text-[#e8e8e8]
-                        md:text-2xl lg:text-3xl xl:text-4xl'>
+          <p className='text-xl text-center text-[#e8e8e8]
+                        md:text-2xl 
+                        lg:text-3xl 
+                        xl:text-4xl xl:text-start'>
             Sou um Dev
             <TypeAnimation
               sequence={[
                 1500,
                 " Web Full Stack",
+                2000,
+                "",
+                1500,
+                " Front-end",
                 2000,
                 "",
                 200
