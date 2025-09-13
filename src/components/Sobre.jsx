@@ -6,7 +6,7 @@ function Sobre() {
     <div id='inicio' className='font-poppins pt-15 h-screen w-full bg-[#181818] grid grid-rows-2 items-center justify-items-start
                                 xl:grid-cols-2 xl:pt-70'>
 
-      <div className='xl:ml-15 mx-auto h-auto'>
+      <div className='xl:ml-15 mx-auto'>
         <h1 className='fade-in-esquerda block tracking-wide text-[#e8e8e8] text-center text-nowrap object-cover
                        text-xl md:text-2xl lg:text-3xl xl:text-4xl '>
           Olá! Meu nome é
@@ -64,7 +64,7 @@ function Sobre() {
 
         <img src="/fotopersona.png" alt="Minha foto"
           className="relative items-center max-h-100 rounded-b-full object-cover
-                      xl:max-h-130 lg:max-h-105 md:max-h-100"
+                      xl:max-h-130 lg:max-h-105"
         />
       </div>
 
