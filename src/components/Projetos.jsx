@@ -7,7 +7,7 @@ function Projetos() {
                 <h1 className='font-bold text-4xl text-[#e8e8e8]'>
                     Projetos em destaque
                 </h1>
-                <p className='dark:text-[#e8e8e8]/60 text-lg'>
+                <p className='text-[#e8e8e8]/60 text-lg'>
                     Aqui estão alguns projetos que eu trabalhei recentemente. Ajudando meus clientes a alcançar seus objetivos.
                 </p>
             </div>
@@ -20,7 +20,7 @@ function Projetos() {
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>JA Grifes</h1>
-                        <p className='dark:text-[#e8e8e8]/60'>
+                        <p className='text-[#e8e8e8]/60'>
                             Desenvolvi uma plataforma completa de e-commerce com foco em performance e escalabilidade. 
                             Inclui catálogo dinâmico com filtros avançados, fluxo de compra com carrinho e checkout integrados a gateways de pagamento, 
                             painel administrativo para gerenciamento de produtos, categorias e estoque em tempo real.
@@ -40,7 +40,7 @@ function Projetos() {
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>ComicZone</h1>
-                        <p className='dark:text-[#e8e8e8]/60'>
+                        <p className='text-[#e8e8e8]/60'>
                             Projeto acadêmico em PHP para um sistema de gestão de eventos estilo ‘banca’. 
                             O sistema contempla níveis de permissão (Admin, Organizador, Comprador), 
                             permitindo criação, visualização e gerenciamento de eventos e produtos, 
@@ -61,7 +61,7 @@ function Projetos() {
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>CR Tech Store</h1>
-                        <p className='dark:text-[#e8e8e8]/60'>
+                        <p className='text-[#e8e8e8]/60'>
                             Desenvolvi uma loja virtual moderna com foco em usabilidade e design responsivo. 
                             Construída com React, Next.js, Tailwind CSS e TypeScript, 
                             a aplicação destaca-se pela experiência fluida do usuário e pela reutilização de componentes, 
@@ -82,7 +82,7 @@ function Projetos() {
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>Bingo em C#</h1>
-                        <p className='dark:text-[#e8e8e8]/60'>
+                        <p className='text-[#e8e8e8]/60'>
                             Criação de um jogo de Bingo em C#, com suporte a múltiplos jogadores, geração aleatória de cartelas, 
                             gerenciamento de partidas e registro em log. 
                             Projeto ideal para aprofundar conceitos de programação orientada a objetos e manipulação de arquivos, 
