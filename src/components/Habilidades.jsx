@@ -8,7 +8,7 @@ function Habilidades() {
                     Habilidades
                 </h1>
                 <p className='text-[#e8e8e8]/60'>
-                    Aqui estão algumas das tecnologias com as quais trabalho
+                    Aqui estão algumas das tecnologias com as quais trabalho.
                 </p>
             </div>
             <div className='text-gray-200 text-center justify-center text-lg mt-20 max-w-5xl space-x-2.5 space-y-2.5 mx-auto flex flex-wrap'>
