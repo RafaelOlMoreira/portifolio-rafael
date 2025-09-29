@@ -8,7 +8,7 @@ function Projetos() {
                     Projetos em destaque
                 </h1>
                 <p className='text-[#e8e8e8]/60 text-lg'>
-                    Aqui estão alguns projetos que eu trabalhei recentemente. Ajudando meus clientes a alcançar seus objetivos.
+                    Aqui estão alguns projetos que eu trabalhei recentemente. Melhorando minhas habilidades e buscando alcançar meus objetivos.
                 </p>
             </div>
 
