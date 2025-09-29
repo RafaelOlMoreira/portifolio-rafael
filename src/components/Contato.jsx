@@ -7,7 +7,7 @@ function Contato() {
                 <h1 className='font-bold text-4xl text-[#e8e8e8]'>
                     Contato
                 </h1>
-                <p className='dark:text-[#e8e8e8]/60'>
+                <p className='text-[#e8e8e8]/60'>
                     Tem um projeto ou dúvida? Entre em contato pelo formulário abaixo ou envie um e-mail, adoraria ouvir de você.
                     <p>Email: rafael150305@gmail.com</p>
                 </p>
@@ -17,18 +17,18 @@ function Contato() {
                     <div>
                         <label htmlFor="nome" className='text-white text-lg'>Nome</label>
                         <input type="text" name="nome" id="" placeholder='Walter White'
-                            className='border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:dark:text-[#e8e8e8]/60 w-full' />
+                            className='border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:text-[#e8e8e8]/60 w-full' />
                     </div>
 
                     <div>
                         <label htmlFor="email" className='text-white text-lg'>Email</label>
                         <input type="email" name="email" id="" placeholder='r@exemplo.com'
-                            className='border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:dark:text-[#e8e8e8]/60 w-full' />
+                            className='border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:text-[#e8e8e8]/60 w-full' />
                     </div>
                 </div>
                 <label htmlFor="mensagem" className='text-white text-lg' >Mensagem</label>
                 <textarea name="mensagem" id="mensagem" rows="5" placeholder='Escreva aqui sua mensagem...'
-                    className='resize-none border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:dark:text-[#e8e8e8]/60 w-full text-start'></textarea>
+                    className='resize-none border-2 border-[#e8e8e81e] rounded-lg p-2 mt-2 text-white placeholder:text-[#e8e8e8]/60 w-full text-start'></textarea>
                 <button className='flex mt-4 p-2 px-5 border-2 border-[#e8e8e81e] hover:border-[#e8e8e862] cursor-pointer rounded-lg text-white items-center ml-auto'>
                     Enviar
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 ml-2">

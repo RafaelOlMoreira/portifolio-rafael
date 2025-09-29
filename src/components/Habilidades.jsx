@@ -7,7 +7,7 @@ function Habilidades() {
                 <h1 className='font-bold text-4xl text-[#e8e8e8]'>
                     Habilidades
                 </h1>
-                <p className='dark:text-[#e8e8e8]/60'>
+                <p className='text-[#e8e8e8]/60'>
                     Aqui estão algumas das tecnologias com as quais trabalho
                 </p>
             </div>
