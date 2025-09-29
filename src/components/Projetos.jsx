@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projetos() {
     return (
-        <div id='projetos' className='font-poppins px-15 pt-25 h-full w-full bg-[#181818]'>
+        <div id='projetos' className='font-poppins lg:px-15 px-5 pt-25 h-full w-full bg-[#181818]'>
             <div className='max-w-xl mx-auto text-center space-y-3'>
                 <h1 className='font-bold text-4xl text-[#e8e8e8]'>
                     Projetos em destaque
@@ -12,10 +12,13 @@ function Projetos() {
                 </p>
             </div>
 
-            <div className='grid grid-rows-4 pt-15 space-y-10 max-w-5xl mx-auto'>
+            <div className='grid pt-15 space-y-10 max-w-5xl mx-auto'>
 
-                <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='p-5'>
+                <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
+                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto1.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    </div>
+                    <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>JA Grifes</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
                             Desenvolvi uma plataforma completa de e-commerce com foco em performance e escalabilidade. 
@@ -29,13 +32,13 @@ function Projetos() {
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>REST API</span>
                         </div>
                     </div>
-                    <div className='ml-auto mt-auto'>
-                        <img src="/projeto1.png" className='max-h-65 rounded-2xl translate-x-5 translate-y-5 group-hover:-rotate-5 group-hover:scale-105 transition-all duration-500' />
-                    </div>
                 </article>
 
-                <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='p-5'>
+                <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
+                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto2.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    </div>
+                    <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>ComicZone</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
                             Projeto acadêmico em PHP para um sistema de gestão de eventos estilo ‘banca’. 
@@ -50,13 +53,13 @@ function Projetos() {
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>MySQL</span>
                         </div>
                     </div>
-                    <div className='ml-auto mt-auto'>
-                        <img src="/projeto2.png" className='max-h-65 rounded-2xl translate-x-5 translate-y-5 group-hover:-rotate-5 group-hover:scale-105 transition-all duration-500' />
-                    </div>
                 </article>
 
-                <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='p-5'>
+                <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
+                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto3.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    </div>
+                    <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>CR Tech Store</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
                             Desenvolvi uma loja virtual moderna com foco em usabilidade e design responsivo. 
@@ -71,13 +74,13 @@ function Projetos() {
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>TypeScript</span>
                         </div>
                     </div>
-                    <div className='ml-auto mt-auto'>
-                        <img src="/projeto3.png" className='max-h-65 rounded-2xl translate-x-5 translate-y-5 group-hover:-rotate-5 group-hover:scale-105 transition-all duration-500' />
-                    </div>
                 </article>
 
-                <article className='group h-min grid grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='p-5 min-h-auto'>
+                <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
+                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto4.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    </div>
+                    <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>Bingo em C#</h1>
                         <p className='dark:text-[#e8e8e8]/60'>
                             Criação de um jogo de Bingo em C#, com suporte a múltiplos jogadores, geração aleatória de cartelas, 
@@ -91,9 +94,6 @@ function Projetos() {
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>POO</span>
                             <span className='bg-white hover:bg-[#e8e8e8]/60 px-3 py-0.5 rounded-md text-nowrap'>Logs</span>
                         </div>
-                    </div>
-                    <div className='ml-auto mt-auto'>
-                        <img src="/projeto4.png" className='max-h-65 rounded-2xl translate-x-5 translate-y-5 group-hover:-rotate-5 group-hover:scale-105 transition-all duration-500' />
                     </div>
                 </article>
 
