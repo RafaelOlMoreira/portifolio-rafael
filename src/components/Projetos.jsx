@@ -15,8 +15,8 @@ function Projetos() {
             <div className='grid pt-15 space-y-10 max-w-5xl mx-auto'>
 
                 <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
-                        <img src="/projeto1.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    <div className='lg:order-2 mx-3 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto1.png" className='max-h-100 rounded-2xl p-2 lg:translate-x-5 lg:translate-y-5 lg:group-hover:-rotate-5 lg:group-hover:scale-105 lg:transition-all lg:duration-500' />
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>JA Grifes</h1>
@@ -35,8 +35,8 @@ function Projetos() {
                 </article>
 
                 <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
-                        <img src="/projeto2.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    <div className='lg:order-2 mx-3 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto2.png" className='max-h-100 rounded-2xl p-2 lg:translate-x-5 lg:translate-y-5 lg:group-hover:-rotate-5 lg:group-hover:scale-105 lg:transition-all lg:duration-500' />
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>ComicZone</h1>
@@ -56,8 +56,8 @@ function Projetos() {
                 </article>
 
                 <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
-                        <img src="/projeto3.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    <div className='lg:order-2 mx-3 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto3.png" className='max-h-100 rounded-2xl p-2 lg:translate-x-5 lg:translate-y-5 lg:group-hover:-rotate-5 lg:group-hover:scale-105 lg:transition-all lg:duration-500' />
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>CR Tech Store</h1>
@@ -77,8 +77,8 @@ function Projetos() {
                 </article>
 
                 <article className='group grid lg:grid-cols-2 border-1 rounded-2xl border-[#e8e8e81e] hover:bg-[#e8e8e80e] overflow-hidden'>
-                    <div className='lg:order-2 mx-0 md:mx-25 lg:mx-0 mt-auto'>
-                        <img src="/projeto4.png" className='max-h-100 rounded-2xl p-2 md:translate-x-5 md:translate-y-5 md:group-hover:-rotate-5 md:group-hover:scale-105 md:transition-all lg:duration-500' />
+                    <div className='lg:order-2 mx-3 md:mx-25 lg:mx-0 mt-auto'>
+                        <img src="/projeto4.png" className='max-h-100 rounded-2xl p-2 lg:translate-x-5 lg:translate-y-5 lg:group-hover:-rotate-5 lg:group-hover:scale-105 lg:transition-all lg:duration-500' />
                     </div>
                     <div className='p-5 lg:order-1'>
                         <h1 className='text-white text-2xl font-extrabold py-1.5'>Bingo em C#</h1>
