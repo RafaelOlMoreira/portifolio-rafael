@@ -4,8 +4,8 @@ function Navbar() {
     return (
         <div className='fixed z-999 font-poppins bg-[#181818fb] text-[#e8e8e8] w-full'>
             <nav className='h-20 px-10 grid grid-cols-3 items-center shadow-xl '>
-                <div className=''>
-                    Logo
+                <div>
+                    <span className='md:hidden text-nowrap'>RM</span>
                 </div>
                 <div className='text-lg'>
                     <ul className='md:flex hidden gap-x-10 justify-center'>
