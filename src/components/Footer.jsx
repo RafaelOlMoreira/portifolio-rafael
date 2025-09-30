@@ -8,7 +8,7 @@ function Footer() {
                     <div className='mx-auto text-[#e8e8e8] text-lg'>
                         <span>© 2025 Rafael Oliveira Moreira</span>
                     </div>
-                    <div className='flex pt-3'>
+                    <div className='flex py-5'>
                         <div className='mr-auto mx-auto'>
                             <a href="https://github.com/RafaelOlMoreira">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" className='hover:cursor-pointer'><g fill="none" stroke="#e8e8e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M9.096 21.25v-3.146a3.33 3.33 0 0 1 .758-2.115c-3.005-.4-5.28-1.859-5.28-5.798c0-1.666 1.432-3.89 1.432-3.89c-.514-1.13-.5-3.084.06-3.551c0 0 1.95.175 3.847 1.75c1.838-.495 3.764-.554 5.661 0c1.897-1.575 3.848-1.75 3.848-1.75c.558.467.573 2.422.06 3.551c0 0 1.432 2.224 1.432 3.89c0 3.94-2.276 5.398-5.28 5.798a3.33 3.33 0 0 1 .757 2.115v3.146" /><path d="M3.086 16.57c.163.554.463 1.066.878 1.496c.414.431.932.77 1.513.988a4.46 4.46 0 0 0 3.62-.216" /></g></svg>
