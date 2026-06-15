@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #1a1916;
+  --bg-deep: #100f0c;
+  --cream: #eae3d1;
+  --cream-dim: #bbb3a0;
+  --taupe: #807a6c;
+  --line: rgba(234, 227, 209, 0.12);
+}
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    /* Lenis controls scrolling; disable native smoothing to avoid conflicts. */
+    scroll-behavior: auto;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--cream);
+    font-family: 'Manrope', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Lenis smooth-scroll base */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  ::selection {
+    background: var(--cream);
+    color: var(--bg);
+  }
+}
+
+@layer components {
+  /* Outline / stroke text used for the layered hero word over the portrait. */
+  .text-stroke {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--cream);
+    text-stroke: 1px var(--cream);
+  }
+
+  /* Reveal mask wrapper: clips a child that animates upward into view. */
+  .reveal-clip {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
+@layer utilities {
+  .label {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 500;
+    font-size: clamp(0.65rem, 0.78vw, 0.82rem);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--cream-dim);
+  }
+
+  /* Center band mask so the outline word only shows across the portrait. */
+  .mask-center-band {
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      transparent 30%,
+      #000 39%,
+      #000 61%,
+      transparent 70%
+    );
+    mask-image: linear-gradient(
+      90deg,
+      transparent 30%,
+      #000 39%,
+      #000 61%,
+      transparent 70%
+    );
+  }
+
+  .will-reveal {
+    will-change: transform, opacity;
+  }
+}
+
+/* ---------- Creative Stack: conic gradient border light ---------- */
+@property --spin {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes border-light {
+  to {
+    --spin: 360deg;
+  }
+}
+
+.poly-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.poly-frame {
+  /* Outer polygon = the "border": animated conic light on hover. */
+  background: rgba(234, 227, 209, 0.14);
+  transition: background 0.3s ease, clip-path 0.45s ease, transform 0.3s ease;
+  clip-path: var(--shape);
+  padding: 1.5px;
+}
+
+.poly-inner {
+  clip-path: var(--shape);
+  transition: clip-path 0.45s ease;
+}
+
+/* Morph both layers to the hover polygon. */
+.poly-card:hover .poly-frame,
+.poly-card:focus-visible .poly-frame,
+.poly-card:hover .poly-inner,
+.poly-card:focus-visible .poly-inner {
+  clip-path: var(--shape-hover);
+}
+
+.poly-card:hover .poly-frame,
+.poly-card:focus-visible .poly-frame {
+  background: conic-gradient(
+    from var(--spin),
+    rgba(234, 227, 209, 0.08) 0%,
+    rgba(234, 227, 209, 0.9) 12%,
+    rgba(234, 227, 209, 0.08) 28%,
+    rgba(234, 227, 209, 0.08) 100%
+  );
+  animation: border-light 2.4s linear infinite;
+}
+
+/* Icon stroke pulse + slow rotation inside stack polygons. */
+@keyframes icon-drift {
+  0%, 100% { transform: rotate(-4deg); }
+  50% { transform: rotate(4deg); }
+}
+@keyframes stroke-pulse {
+  0%, 100% { stroke-opacity: 0.55; }
+  50% { stroke-opacity: 1; }
+}
+.stack-icon { animation: icon-drift 6s ease-in-out infinite; }
+.stack-icon path,
+.stack-icon circle,
+.stack-icon rect { animation: stroke-pulse 3.2s ease-in-out infinite; }
+
+/* ---------- Featured Work: animated dashed border ---------- */
+@keyframes dash-march {
+  to { stroke-dashoffset: -36; }
+}
+.dash-border rect {
+  animation: dash-march 1.6s linear infinite;
+}
+
+/* ---------- Contact terminal ---------- */
+@keyframes scanline {
+  0% { left: -2%; opacity: 0; }
+  8% { opacity: 1; }
+  92% { opacity: 1; }
+  100% { left: 102%; opacity: 0; }
+}
+.terminal-scan::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -2%;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, rgba(234, 227, 209, 0.5), transparent);
+  animation: scanline 4.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes caret-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.caret-blink { animation: caret-blink 1.1s steps(1) infinite; }
+
+@keyframes binary-rise {
+  0% { transform: translateY(0); opacity: 0; }
+  12% { opacity: 0.5; }
+  100% { transform: translateY(-140px); opacity: 0; }
+}
+.binary-bit {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Manrope', monospace;
+  font-size: 0.65rem;
+  color: rgba(234, 227, 209, 0.5);
+  animation: binary-rise 3s linear forwards;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+@keyframes key-ripple {
+  0% { transform: scale(0); opacity: 0.35; }
+  100% { transform: scale(1); opacity: 0; }
+}
+.key-ripple {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 9999px;
+  border: 1px solid rgba(234, 227, 209, 0.5);
+  animation: key-ripple 0.7s ease-out forwards;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* ---------- Footer ---------- */
+@keyframes gradient-slide {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+.kinetic-name {
+  background: linear-gradient(
+    100deg,
+    #eae3d1 0%,
+    #807a6c 30%,
+    #eae3d1 50%,
+    #bbb3a0 70%,
+    #eae3d1 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-slide 7s linear infinite;
+}
+
+@keyframes noise-jitter {
+  0% { background-position: 0 0; }
+  25% { background-position: -60px 40px; }
+  50% { background-position: 40px -50px; }
+  75% { background-position: -30px -30px; }
+  100% { background-position: 0 0; }
+}
+.static-noise {
+  animation: noise-jitter 0.6s steps(4) infinite;
+}
+
+/* Respect users who prefer reduced motion: kill transforms/animations. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
