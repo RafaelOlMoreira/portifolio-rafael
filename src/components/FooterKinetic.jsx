@@ -55,21 +55,27 @@ export default function FooterKinetic() {
     return () => clearInterval(interval)
   }, [])
 
-  /* Hover: letters scatter, then snap back with an elastic regroup. */
+  /* Hover: letters scatter, then snap back with an elastic regroup. Gated to
+     true hover/fine-pointer devices so a tap on mobile never leaves the letters
+     scattered (and clipped) with no way to "un-hover". */
+  const canHover = () =>
+    typeof window !== 'undefined' &&
+    window.matchMedia('(hover: hover) and (pointer: fine)').matches
+
   const scatter = () => {
-    if (prefersReducedMotion() || scattered.current) return
+    if (prefersReducedMotion() || !canHover() || scattered.current) return
     scattered.current = true
     gsap.to('.kinetic-letter', {
-      x: () => gsap.utils.random(-28, 28),
-      y: () => gsap.utils.random(-34, 34),
-      rotation: () => gsap.utils.random(-22, 22),
+      x: () => gsap.utils.random(-22, 22),
+      y: () => gsap.utils.random(-22, 22),
+      rotation: () => gsap.utils.random(-18, 18),
       duration: 0.45,
       ease: 'power3.out',
       stagger: { each: 0.012, from: 'random' },
     })
   }
   const regroup = () => {
-    if (prefersReducedMotion()) return
+    if (prefersReducedMotion() || !canHover()) return
     scattered.current = false
     gsap.to('.kinetic-letter', {
       x: 0,
@@ -112,9 +118,10 @@ export default function FooterKinetic() {
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto max-w-8xl">
-        {/* Kinetic signature */}
-        <div className="overflow-hidden pb-4">
+      <div className="relative mx-auto max-w-7xl">
+        {/* Kinetic signature — the negative margins extend the overflow clip so
+            the scatter effect isn't cropped, while keeping the reveal mask. */}
+        <div className="overflow-hidden px-4 pb-4 pt-6 -mx-4 -mt-6">
           {/*
             The sweep gradient is clipped per-letter (not on the h2): transformed
             descendants break the parent's background-clip:text in Chromium.
@@ -126,7 +133,7 @@ export default function FooterKinetic() {
             onMouseEnter={scatter}
             onMouseLeave={regroup}
             className="cursor-default select-none whitespace-nowrap text-center font-display font-black uppercase leading-none tracking-tightest text-cream"
-            style={{ fontSize: 'clamp(2.6rem, 8.6vw, 9.5rem)' }}
+            style={{ fontSize: 'clamp(1.6rem, 9vw, 9.5rem)' }}
           >
             {NAME.split('').map((char, i) => (
               <span
@@ -155,7 +162,7 @@ export default function FooterKinetic() {
         </div>
 
         {/* Bottom row: signature meta + creative credits */}
-        <div className="footer-sub mt-16 flex items-center justify-between border-t border-line pt-6">
+        <div className="footer-sub mt-16 flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-t border-line pt-6">
           <span className="label text-[0.6rem]">Rafael Moreira — {new Date().getFullYear()}</span>
 
           <div className="relative">

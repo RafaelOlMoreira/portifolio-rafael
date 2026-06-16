@@ -395,6 +395,8 @@ export default function ContactPortal() {
       })
       setSending('done')
     } catch (err) {
+      // EmailJS errors carry the real reason in err.status + err.text.
+      console.error('[EmailJS] envio falhou:', err?.status, err?.text || err)
       await anim
       pushLine({
         type: 'bot',
